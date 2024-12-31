@@ -1,0 +1,24 @@
+.letter {
+    width: 200px;
+    height: 100px;
+    background-color:rgb(115, 166, 224);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.letter:hover {
+    transform: scale(1.05);
+}
+
+.letter p {
+    margin: 0;
+}
